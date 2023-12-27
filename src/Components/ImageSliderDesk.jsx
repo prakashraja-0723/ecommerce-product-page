@@ -42,11 +42,7 @@ const ImageSliderDark = () => {
 						className={`absolute w-9 h-9 rounded-full ml-4 bg-white left-0 top-1/2 -translate-y-1/2 grid place-content-center pr-0.5 z-[1]`}
 						onClick={goToBack}
 					>
-						<img
-							src="/src/assets/images/icon-previous.svg"
-							alt={crypto.randomUUID()}
-							className={`w-2`}
-						/>
+						<svg width="12" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M11 1 3 9l8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd" /></svg>
 					</button>
 					<div
 						className={`flex transition ease-in-out duration-500 w-full h-full`}
@@ -64,11 +60,7 @@ const ImageSliderDark = () => {
 						className={`absolute w-9 h-9 rounded-full mr-4 bg-white top-1/2 right-0 -translate-y-1/2 grid place-content-center pr-0.5 z-[1]`}
 						onClick={goToNext}
 					>
-						<img
-							src="/src/assets/images/icon-next.svg"
-							alt={crypto.randomUUID()}
-							className={`w-2`}
-						/>
+						<svg width="13" height="18" xmlns="http://www.w3.org/2000/svg"><path d="m2 1 8 8-8 8" stroke="#1D2026" stroke-width="3" fill="none" fill-rule="evenodd" /></svg>
 					</button>
 				</div>
 				<div
