@@ -9,7 +9,7 @@ let productDetails = [
 ];
 
 import Navbar from "./Components/Navbar.jsx";
-import { AddCart, ImageSlider, Price, ProductDetail } from "../import-files.js";
+import { AddCart, ImageSlider, Price, ProductDetail } from "/src/import-files.js";
 import { useState } from "react";
 
 const App = () => {
