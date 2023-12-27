@@ -1,18 +1,18 @@
-let cartItems = [];
 
-let productDetails = [
-  {
-    productImage: `/src/assets/images/image-product-1-thumbnail.jpg`,
-    price: 125,
-    title: `Fall Limited Edition Sneakers`,
-  },
-];
-
+import { useState } from "react";
 import Navbar from "./Components/Navbar.jsx";
 import { AddCart, ImageSlider, Price, ProductDetail } from "/src/import-files.js";
-import { useState } from "react";
+import productImg from '/src/assets/images/image-product-1-thumbnail.jpg';
 
+let cartItems = [];
 const App = () => {
+  let productDetails = [
+    {
+      productImage: productImg,
+      price: 125,
+      title: `Fall Limited Edition Sneakers`,
+    },
+  ];
   const [currentQuantity, setCurrentQuantity] = useState(0);
   const [isCartOpen, setIsCartOpen] = useState(true);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -66,7 +66,7 @@ const App = () => {
   };
 
   const deleteItem = () => {
-    
+
     cartItems.pop(cartItems[0]);
     setIsCartOpen(!isCartOpen);
     setCurrentQuantity(0);
