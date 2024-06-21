@@ -41,7 +41,7 @@ I'm excited to share my latest project: an **e-commerce product page** built usi
 
 #### 📂 **Project Link**
 
-[Live Demo](#) | [GitHub Repository](#)
+[Live Demo](https://ecommerce-product-page-nu-ten.vercel.app/) | [GitHub Repository](https://github.com/prakashraja-0723/ecommerce-product-page)
 
 ---
 
